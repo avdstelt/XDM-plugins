@@ -1,0 +1,22 @@
+{
+    "name": "XDM main repo", 
+    "info_url": "https://github.com/avdstelt/XDM-plugins/", 
+    "plugins": {
+        "nl.avdstelt.spotweb": [
+            {
+                "major_version": 0, 
+                "minor_version": 1, 
+                "name": "Spotweb", 
+                "type": "Indexer", 
+                "format": "zip", 
+                "desc": "Generic Spotweb indexer. Categories are there numerical id of Spotweb, use \"Get categories\"", 
+                "xdm_version": [
+                    0, 
+                    5, 
+                    14
+                ], 
+                "download_url": "https://github.com/avdstelt/XDM-plugins/archive/master.zip"
+            }
+        ]
+    }
+}
