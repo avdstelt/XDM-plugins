@@ -1,5 +1,5 @@
 {
-    "name": "XDM main repo", 
+    "name": "XDM-plugins repo", 
     "info_url": "https://github.com/avdstelt/XDM-plugins/", 
     "plugins": {
         "nl.avdstelt.spotweb": [
