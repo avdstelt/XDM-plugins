@@ -165,7 +165,7 @@ class Spotweb(Indexer):
                         if config.name.lower().endswith(subName.lower()):
                             data[config.name] = subID
 
-        dataWrapper = {'callFunction': 'newsznab_' + self.instance + '_spreadCategories',
+        dataWrapper = {'callFunction': 'spotweb_' + self.instance + '_spreadCategories',
                        'functionData': data}
 
         return (True, dataWrapper, 'I found %s categories' % len(data))
@@ -173,7 +173,7 @@ class Spotweb(Indexer):
 
     def getConfigHtml(self):
         return """<script>
-                function newsznab_""" + self.instance + """_spreadCategories(data){
+                function spotweb_""" + self.instance + """_spreadCategories(data){
                   console.log(data);
                   $.each(data, function(k,i){
                       $('#""" + helper.idSafe(self.name) + """ input[name$="'+k+'"]').val(i)
