@@ -21,6 +21,7 @@
 
 from xdm.plugins import *
 from xdm import helper
+import requests
 from pluginRootLibarys.xmltodict import xmltodict
 import urllib
 
