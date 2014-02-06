@@ -142,6 +142,12 @@ class Spotweb(Indexer):
         for cat in result['caps']['categories']['category']:
             name = cat['@name']
             attribute_id = cat['@id']
+            if name == 'Audio':
+                name = 'Music'
+            if name == 'Other':
+                if cat['subcat']['@name'] == 'Ebook':
+                    name = 'Books'
+                    attribute_id = cat['subcat']['@id']
             for config in self.c.configs:
                 if config.name in data:
                     continue
