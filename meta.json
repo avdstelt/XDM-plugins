@@ -17,6 +17,22 @@
                 ], 
                 "download_url": "https://github.com/avdstelt/XDM-plugins/archive/master.zip"
             }
-        ]
+        ],
+        "nl.avdstelt.newznab": [
+            {
+                "major_version": 0, 
+                "minor_version": 1, 
+                "name": "Newznab", 
+                "type": "Indexer", 
+                "format": "zip", 
+                "desc": "Generic Newznab indexer. Categories are there numerical id of Newznab, use \"Get categories\"", 
+                "xdm_version": [
+                    0, 
+                    5, 
+                    14
+                ], 
+                "download_url": "https://github.com/avdstelt/XDM-plugins/archive/master.zip"
+            }
+        ]        
     }
 }
