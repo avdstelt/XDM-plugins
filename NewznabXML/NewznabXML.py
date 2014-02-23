@@ -26,9 +26,9 @@ from xdm import helper
 from collections import OrderedDict
 import urllib
 
-class Newznab(Indexer):
-    version = "0.1"
-    identifier = "nl.avdstelt.newznab"
+class NewznabXML(Indexer):
+    version = "0.2"
+    identifier = "nl.avdstelt.newznabXML"
     _config = OrderedDict([('host', 'localhost'),
                ('apikey', ''),
                ('port', None),
@@ -186,7 +186,7 @@ class Newznab(Indexer):
                 </script>
         """
 
-    config_meta = {'plugin_desc': 'Generic Newznab indexer. Categories are there numerical id of Newznab, use "Get categories"',
+    config_meta = {'plugin_desc': 'Generic NewznabXML indexer. Categories are there numerical id of NewznabXML, use "Get categories"',
                    'plugin_buttons': {'gather_gategories': {'action': _gatherCategories, 'name': 'Get categories'},
                                       'test_connection': {'action': _testConnection, 'name': 'Test connection'}},
                    }
