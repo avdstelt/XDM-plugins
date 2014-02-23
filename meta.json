@@ -21,11 +21,11 @@
         "nl.avdstelt.newznab": [
             {
                 "major_version": 0, 
-                "minor_version": 1, 
-                "name": "Newznab", 
+                "minor_version": 2, 
+                "name": "NewznabXML", 
                 "type": "Indexer", 
                 "format": "zip", 
-                "desc": "Generic Newznab indexer. Categories are there numerical id of Newznab, use \"Get categories\"", 
+                "desc": "Generic NewznabXML indexer. Categories are there numerical id of NewznabXML, use \"Get categories\"", 
                 "xdm_version": [
                     0, 
                     5, 
