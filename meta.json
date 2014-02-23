@@ -18,7 +18,7 @@
                 "download_url": "https://github.com/avdstelt/XDM-plugins/archive/master.zip"
             }
         ],
-        "nl.avdstelt.newznab": [
+        "nl.avdstelt.newznabXML": [
             {
                 "major_version": 0, 
                 "minor_version": 2, 
